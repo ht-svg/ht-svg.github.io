@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AZUR LANE · 指挥官的港口小站</title>
+  <link rel="icon" href="https://patchwiki.biligame.com/images/blhx/1/1d/nd6f3zf26cteoxpz7r1lnfc8jaid4qv.jpg" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;700;900&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 漂浮的海浪气泡 / 星光粒子（JS生成） -->
+  <div id="ocean-particles"></div>
+
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="logo"><span class="logo-badge">🦄</span> AZUR<span>LANE</span> · 指挥官小站</div>
+    <ul class="nav-links">
+      <li><a href="#home">母港</a></li>
+      <li><a href="#unicorn">独角兽</a></li>
+      <li><a href="#about">关于我</a></li>
+      <li><a href="#skills">技能</a></li>
+      <li><a href="#works">舰船图鉴</a></li>
+      <li><a href="#anime">作战日志</a></li>
+      <li><a href="#contact">通讯</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <!-- Hero：独角兽 C 位 -->
+  <header id="home" class="hero">
+    <div class="hero-grid-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-kicker">// AZUR LINE · ROYAL NAVY · LIGHT CARRIER</p>
+      <h1 class="hero-title">コンニチハ、指揮官様…<br/><span class="cn">欢迎来到独角兽守护的港口小站 ✨</span></h1>
+      <p class="typewriter" id="typewriter"></p>
+
+      <div class="unicorn-stage">
+        <div class="unicorn-halo"></div>
+        <div class="unicorn-frame">
+          <img src="https://patchwiki.biligame.com/images/blhx/thumb/d/d1/6mue927enshmfmljsztq7an2z0qt6t6.jpg/700px-%E7%8B%AC%E8%A7%92%E5%85%BD%E6%8D%A2%E8%A3%855.jpg"
+               alt="独角兽立绘" class="unicorn-img"
+               onerror="this.onerror=null;this.src='https://patchwiki.biligame.com/images/blhx/a/af/p1m0ks9impayw5bmvq6wjc8ctxynhw5.jpg';" />
+          <div class="frame-corner tl"></div><div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div><div class="frame-corner br"></div>
+        </div>
+        <div class="unicorn-tag">
+          <img class="unicorn-avatar" src="https://patchwiki.biligame.com/images/blhx/1/1d/nd6f3zf26cteoxpz7r1lnfc8jaid4qv.jpg" alt="独角兽头像"/>
+          <div>
+            <strong>独角兽 Unicorn (I72)</strong>
+            <small>皇家阵营 · 轻航 · 「就像天使一样？…呜…有、有点不好意思……」</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-btns">
+        <a href="#unicorn" class="btn btn-cyan">进入独角兽领域 🦄</a>
+        <a href="#works" class="btn btn-ghost">查看舰船图鉴</a>
+      </div>
+    </div>
+    <div class="scroll-hint">▼ SCROLL ▼</div>
+  </header>
+
+  <!-- 独角兽专区 -->
+  <section id="unicorn" class="section unicorn-section">
+    <h2 class="section-title"><span>MAIN SHIP</span>最喜欢的舰船 · 独角兽</h2>
+    <div class="unicorn-showcase tech-border">
+      <div class="us-left">
+        <img src="https://patchwiki.biligame.com/images/blhx/thumb/0/05/2g21le12vj801shdo2t8mfyj0sd7po4.jpg/600px-Unicorn-g427411.jpg"
+             alt="独角兽换装立绘"
+             onerror="this.onerror=null;this.src='https://patchwiki.biligame.com/images/blhx/4/48/cx3iemyjq81l3qtg7oqqx4lss1sxheo.jpg';" />
+        <div class="us-quote">「指挥官様，今天也要好好努力哦…独角兽会一直为你应援的！」</div>
+      </div>
+      <div class="us-right">
+        <h3>✦ 白鸢与圣书之舰 · 独角兽</h3>
+        <p>登场于《碧蓝航线》的皇家阵营轻型航空母舰，原型为英国皇家海军“独角兽号”。温柔怯生、体弱多病，却总想为指挥官做更多的事。搭载舰载机“白鸽”是她唯一的伙伴。</p>
+        <div class="us-stats">
+          <div class="stat"><span class="stat-label">稀有度</span><div class="bar"><i style="--lv:92%"></i></div><span class="stat-val">SSR</span></div>
+          <div class="stat"><span class="stat-label">可爱度</span><div class="bar"><i style="--lv:100%"></i></div><span class="stat-val">MAX</span></div>
+          <div class="stat"><span class="stat-label">应援力</span><div class="bar"><i style="--lv:98%"></i></div><span class="stat-val">S+</span></div>
+          <div class="stat"><span class="stat-label">治疗量</span><div class="bar"><i style="--lv:95%"></i></div><span class="stat-val">EX</span></div>
+        </div>
+        <div class="us-tags">
+          <span># 软萌治愈系</span><span># 白丝萝莉</span><span># 应援型轻航</span><span># 吾推天下第一</span>
+        </div>
+        <div class="us-skin">
+          <small>皮肤画廊：</small>
+          <img src="https://patchwiki.biligame.com/images/blhx/4/48/cx3iemyjq81l3qtg7oqqx4lss1sxheo.jpg" alt="换装1" title="换装·初始"/>
+          <img src="https://patchwiki.biligame.com/images/blhx/e/ef/0tujkww8053w73ug42h6yw8tb6yllqr.jpg" alt="换装2" title="换装2"/>
+          <img src="https://patchwiki.biligame.com/images/blhx/1/1a/7a8epamkr14clx8o2uifjyd4g7805ui.jpg" alt="换装3" title="换装3"/>
+          <img src="https://patchwiki.biligame.com/images/blhx/c/cf/swph433h2gq4equk1kz0broayquixj4.jpg" alt="换装4" title="换装4"/>
+          <img src="https://patchwiki.biligame.com/images/blhx/thumb/8/84/syurbxveev41pwoazvtkf9qhg9exx7r.jpg/700px-%E7%8B%AC%E8%A7%92%E5%85%BD%E6%8D%A2%E8%A3%856.jpg" alt="换装6" title="换装6"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于我 -->
+  <section id="about" class="section">
+    <h2 class="section-title"><span>COMMANDER</span>关于指挥官</h2>
+    <div class="about-card tech-border">
+      <div class="about-side">
+        <img class="about-avatar" src="https://patchwiki.biligame.com/images/blhx/f/f6/3qjgu9ly2nt3c871r3mifb35g125au0.jpg" alt="独角兽·改 头像"/>
+        <div class="id-card">
+          <p><b>ID:</b> CDRE-2026-0072</p>
+          <p><b>阵营:</b> 碧蓝航线 · 指挥官</p>
+          <p><b>服役时长:</b> 2000+ 天</p>
+          <p><b>主推:</b> 独角兽 ⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+      <div class="about-main">
+        <h3>一名普通的港区指挥官 👋</h3>
+        <p>白天是敲代码的打工人，晚上回到港区整理档案、强化装备、给独角兽买新皮肤。热爱前端开发、二次元文化与一切柔软可爱的事物。这个小小的网站是我的“个人港区”，记录我的生活、作品与收藏。</p>
+        <div class="tags">
+          <span>前端开发</span><span>二次元</span><span>碧蓝航线 6 年老兵</span><span>摄影</span><span>猫奴</span><span>深夜拉面</span>
+        </div>
+      </div>
+    </div>
+    <div class="marquee tech-border">
+      <div class="marquee-track">
+        <span>🦄 UNICORN MAIN! &nbsp;✦&nbsp; 碧蓝航线 &nbsp;✦&nbsp; AZUR LANE &nbsp;✦&nbsp; 为了港区与爱 &nbsp;✦&nbsp; UNICORN MAIN! &nbsp;✦&nbsp; 碧蓝航线 &nbsp;✦&nbsp; AZUR LANE &nbsp;✦&nbsp; 为了港区与爱 &nbsp;✦&nbsp;</span>
+        <span>🦄 UNICORN MAIN! &nbsp;✦&nbsp; 碧蓝航线 &nbsp;✦&nbsp; AZUR LANE &nbsp;✦&nbsp; 为了港区与爱 &nbsp;✦&nbsp; UNICORN MAIN! &nbsp;✦&nbsp; 碧蓝航线 &nbsp;✦&nbsp; AZUR LANE &nbsp;✦&nbsp; 为了港区与爱 &nbsp;✦&nbsp;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技能 -->
+  <section id="skills" class="section">
+    <h2 class="section-title"><span>EQUIPMENT</span>指挥官技能装备</h2>
+    <div class="skill-grid">
+      <div class="skill-card tech-border"><h4>⚓ 前端开发</h4><div class="bar"><i style="--lv:88%"></i></div><p>HTML / CSS / JS / Vue，像整备舰载机一样打磨每一行代码</p></div>
+      <div class="skill-card tech-border"><h4>🎨 UI 设计</h4><div class="bar"><i style="--lv:75%"></i></div><p>能把页面画得像舰船皮肤一样好看（自封的）</p></div>
+      <div class="skill-card tech-border"><h4>📷 摄影后期</h4><div class="bar"><i style="--lv:70%"></i></div><p>海边取景专精，拍浪花像拍舰队演习</p></div>
+      <div class="skill-card tech-border"><h4>🛠️ 后端摸鱼</h4><div class="bar"><i style="--lv:60%"></i></div><p>Node.js / Python，够给自己的小站写个接口</p></div>
+      <div class="skill-card tech-border"><h4>🎮 肝度管理</h4><div class="bar"><i style="--lv:99%"></i></div><p>活动期日均在线 12h，自律值 MAX</p></div>
+      <div class="skill-card tech-border"><h4>🦄 独角兽浓度</h4><div class="bar"><i style="--lv:100%"></i></div><p>不可计量单位，溢出警告！</p></div>
+    </div>
+  </section>
+
+  <!-- 舰船图鉴（作品墙改造） -->
+  <section id="works" class="section">
+    <h2 class="section-title"><span>SHIP GIRLS</span>我的收藏 · 舰船图鉴</h2>
+    <div class="work-grid">
+      <a class="work-card tech-border" href="https://wiki.biligame.com/blhx/%E7%8B%AC%E8%A7%92%E5%85%BD" target="_blank" rel="noopener">
+        <img src="https://patchwiki.biligame.com/images/blhx/a/af/p1m0ks9impayw5bmvq6wjc8ctxynhw5.jpg" alt="独角兽立绘"/>
+        <div class="work-info"><h4>独角兽 · Unicorn</h4><p>轻航 | 本站的绝对主角 ⭐⭐⭐⭐⭐</p></div>
+      </a>
+      <a class="work-card tech-border" href="https://wiki.biligame.com/blhx/%E4%BC%81%E4%B8%9A" target="_blank" rel="noopener">
+        <img src="https://patchwiki.biligame.com/images/blhx/a/a2/1lwxg8c62po6ldaqhzz6ahtz0jshdsq.jpg" alt="企业立绘"
+             onerror="this.onerror=null;this.src='https://patchwiki.biligame.com/images/blhx/thumb/a/a2/1lwxg8c62po6ldaqhzz6ahtz0jshdsq.jpg/350px-%E4%BC%81%E4%B8%9A%E7%AB%8B%E7%BB%98.jpg';"/>
+        <div class="work-info"><h4>企业 · Enterprise</h4><p>战鹰 | 灰色幽灵，实力担当</p></div>
+      </a>
+      <a class="work-card tech-border" href="https://wiki.biligame.com/blhx/%E6%8B%89%E8%8F%B2" target="_blank" rel="noopener">
+        <img src="https://patchwiki.biligame.com/images/blhx/2/2c/kl69miqcqvdx8myswuwbstxrzuyzn0w.jpg" alt="拉菲立绘"/>
+        <div class="work-info"><h4>拉菲 · Laffey</h4><p>驱逐 | 嗜睡兔耳，咿呀…</p></div>
+      </a>
+      <a class="work-card tech-border" href="https://wiki.biligame.com/blhx/%E7%BB%AB%E6%B3%A2" target="_blank" rel="noopener">
+        <img src="https://patchwiki.biligame.com/images/blhx/5/50/eo6b78jxvyupyimzmubhbvagii8kspq.jpg" alt="绫波立绘"/>
+        <div class="work-info"><h4>绫波 · Ayanami</h4><p>驱逐 | 沉默的人偶之心</p></div>
+      </a>
+      <a class="work-card tech-border" href="https://wiki.biligame.com/blhx/%E6%B5%B7%E4%BC%A6%E5%A8%9C" target="_blank" rel="noopener">
+        <img src="https://patchwiki.biligame.com/images/blhx/d/db/qy0ruacyrh9xncnlq8t57qo3w6srj5x.jpg" alt="海伦娜立绘"/>
+        <div class="work-info"><h4>海伦娜 · Helena</h4><p>巡洋 | 雷达全覆盖，输出机器</p></div>
+      </a>
+      <a class="work-card tech-border" href="https://wiki.biligame.com/blhx/%E7%8B%AC%E8%A7%92%E5%85%BD" target="_blank" rel="noopener">
+        <img src="https://patchwiki.biligame.com/images/blhx/thumb/7/77/fn062m17f53anp8jad52xg10gqlx5sv.jpg/450px-UnicornFAntd.jpg" alt="独角兽·全武装毁灭模式"/>
+        <div class="work-info"><h4>独角兽·改 · 全武装</h4><p>毁灭模式 | 黑化 also 可爱 100 分</p></div>
+      </a>
+    </div>
+    <p class="works-note">// 图片素材版权归属《碧蓝航线》官方及其 WIKI，本站仅作个人展示用途</p>
+  </section>
+
+  <!-- 作战日志（追番改造） -->
+  <section id="anime" class="section">
+    <h2 class="section-title"><span>LOGBOOK</span>作战日志</h2>
+    <div class="log-list">
+      <div class="log-item tech-border"><span class="log-date">2026.09</span><div><h4>主线 15-4 攻略成功！</h4><p>舰队平均等级 125，独角兽应援奶量功不可没 🦄</p></div><span class="log-rank">S</span></div>
+      <div class="log-item tech-border"><span class="log-date">2026.08</span><div><h4>夏活 · 彩船建造池出货</h4><p>大建 200 发后终于把限定接回港区，资源清零一周</p></div><span class="log-rank">A</span></div>
+      <div class="log-item tech-border"><span class="log-date">2026.07</span><div><h4>完成个人网站重构</h4><p>从樱花风改成碧蓝航线军事科技风，省下买皮肤钱 0 元</p></div><span class="log-rank">B+</span></div>
+      <div class="log-item tech-border"><span class="log-date">2026.06</span><div><h4>独角兽手办到货开箱</h4><p>摆工位上，同事都说工作效率提升了（才怪）</p></div><span class="log-rank">SSS</span></div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section id="contact" class="section">
+    <h2 class="section-title"><span>SIGNAL</span>发送电波 · 联系我</h2>
+    <div class="contact-wrap">
+      <form class="contact-form tech-border" id="contactForm">
+        <input type="text" placeholder="代号（昵称）" required />
+        <input type="email" placeholder="通讯频道（邮箱）" required />
+        <textarea rows="4" placeholder="作战简报（留言内容）…" required></textarea>
+        <button type="submit" class="btn btn-cyan">📡 发送电波</button>
+        <p class="form-tip" id="formTip"></p>
+      </form>
+      <div class="social-panel tech-border">
+        <h4>其他联络方式</h4>
+        <a href="https://space.bilibili.com" target="_blank" rel="noopener">📺 Bilibili</a>
+        <a href="https://weibo.com" target="_blank" rel="noopener">🐧 微博</a>
+        <a href="https://www.pixiv.net" target="_blank" rel="noopener">🎨 Pixiv</a>
+        <a href="https://github.com" target="_blank" rel="noopener">💻 GitHub</a>
+        <a href="https://wiki.biligame.com/blhx/%E7%8B%AC%E8%A7%92%E5%85%BD" target="_blank" rel="noopener">🦄 独角兽WIKI</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 指挥官的个人港区 · Powered with 🦄 & Love</p>
+    <p class="footer-sub">《碧蓝航线》相关图片素材版权归原作者 Manjuu / Yostar / Bilibili Game 所有</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
